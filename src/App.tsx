@@ -4,9 +4,9 @@ import {
   Route,
 } from 'react-router-dom';
 import Header from './components/Header';
-import Home from './routes/Home_';
+import Home from './routes/Home';
 import Emulator from './routes/Emulator';
-import About from './routes/About_';
+import About from './routes/About';
 
 export default function App() {
   return (
