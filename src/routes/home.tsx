@@ -1,4 +1,5 @@
-import { Card } from 'flowbite-react';
+import { Button, Card } from 'flowbite-react';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -9,7 +10,12 @@ export default function Home() {
           This is an emulator for bots built with the Synaptic bot framework.
         </p>
       </div>
-      <Card className="mt-10 mx-auto w-3/4">
+
+      <Button as={Link} to="/about" className="max-w-screen-sm mx-auto mt-8 " gradientDuoTone="purpleToBlue">
+        Get Started Testing your Bot Now
+      </Button>
+
+      <Card className="text-white my-10 mx-auto w-3/4">
         <h2 className="text-2xl font-bold">About Synaptic</h2>
         <p className="text-lg mt-4">
           Synaptic is a revolutionary bot building framework that goes beyond
