@@ -12,7 +12,7 @@ export default function App() {
     <Router>
       <Header />
 
-      <div className="overflow-auto h-screen scrollbar-hide">
+      <div>
         <Routes>
           <Route path="/" Component={Home}></Route>
 
