@@ -11,7 +11,12 @@ export default function Home() {
         </p>
       </div>
 
-      <Button as={Link} to="/emulator" className="max-w-screen-sm mx-auto mt-8 " gradientDuoTone="purpleToBlue">
+      <Button
+        as={Link}
+        to="/emulator"
+        className="max-w-sm mx-auto mt-8 "
+        gradientDuoTone="purpleToBlue"
+      >
         Get Started Testing your Bot Now
       </Button>
 
