@@ -9,7 +9,7 @@ function App() {
 
   return (
     <Navbar fluid>
-      <Navbar.Brand href="https://flowbite-react.com">
+      <Navbar.Brand href="/">
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
           Synaptic Emulator
         </span>
@@ -43,6 +43,9 @@ function App() {
       <Navbar.Collapse>
         <Navbar.Link to="/" active={location.pathname === "/"} as={Link}>
           Home
+        </Navbar.Link>
+        <Navbar.Link to="/emulator" active={location.pathname === "/emulator"} as={Link}>
+          Emulator
         </Navbar.Link>
         <Navbar.Link to="/about" active={location.pathname === "/about"} as={Link}>
           About

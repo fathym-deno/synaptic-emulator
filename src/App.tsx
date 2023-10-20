@@ -4,8 +4,9 @@ import {
   Route,
 } from 'react-router-dom';
 import Header from './components/Header';
-import Home from './routes/Home';
-import About from './routes/About';
+import Home from './routes/Home_';
+import Emulator from './routes/Emulator';
+import About from './routes/About_';
 
 export default function App() {
   return (
@@ -15,6 +16,8 @@ export default function App() {
       <div>
         <Routes>
           <Route path="/" Component={Home}></Route>
+
+          <Route path="/emulator" Component={Emulator}></Route>
 
           <Route path="/about" Component={About}></Route>
         </Routes>
