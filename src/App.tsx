@@ -4,8 +4,8 @@ import {
   Route,
 } from 'react-router-dom';
 import Header from './components/Header';
-import Home from './pages/home';
-import About from './pages/about';
+import Home from './routes/home';
+import About from './routes/about';
 
 export default function App() {
   return (
